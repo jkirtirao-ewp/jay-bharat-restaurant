@@ -1,0 +1,64 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  } */
+  
+  /* *{
+    box-sizing: border-box;
+  } */
+  
+  #form
+  {
+    display: block;
+    background-color: #f0dad9;
+    box-shadow: 1px 1px 3px 2px #ddd;
+    margin: 40px auto;
+    max-height: 700px;
+    max-width: 600px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 150px;
+  }
+  
+  #form h1
+  {
+    color: #db4744;
+    font-size: 30px;
+  }
+  
+  #form input, textarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px auto;
+    padding: 8px;
+    /* font-family: "Poppins"; */
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+   /* form input, ::placeholder
+   {
+    color:  black;
+   } */
+   /* form span {
+    color: rgb(29, 185, 237);
+   } */
+  
+  #form button{
+    height: 30px;
+    width: 80px;
+    align-items: center;
+    border: none;
+    background-color: #db4744;
+    color: white;
+    border-radius: 10px;
+  
+  }
+  
+  #map {
+    margin: 50px 100px;
+  }
